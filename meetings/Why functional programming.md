@@ -334,7 +334,7 @@ def isOld(person):
   else:
     return False
 
-filter(!isOld, [kjetil, haakon])  # [Person("Kjetil", 26)]
+filter(isOld, [kjetil, haakon])  # [Person("Håkon", 28)]
 
 ```
 
